@@ -1,5 +1,23 @@
-- pipeline.id: patients-pipeline
-  path.config: "/usr/share/logstash/pipeline/banda.go.patients.conf"
+- pipeline.id: patient-transactions-pipeline
+  path.config: "/usr/share/logstash/pipeline/banda.live.patient-transactions.conf"
 
-- pipeline.id: corder-pipeline
-  path.config: "/usr/share/logstash/pipeline/banda.go.orders.conf"
+- pipeline.id: profit-loss-pipeline
+  path.config: "/usr/share/logstash/pipeline/banda.live.profit-loss.conf"
+
+- pipeline.id: diagnoses-pipeline
+  path.config: "/usr/share/logstash/pipeline/banda.live.diagnoses.conf"
+
+- pipeline.id: recent-windows-pipeline
+  path.config: "/usr/share/logstash/pipeline/banda.live.recent-windows.conf"
+
+- pipeline.id: user-activity-pipeline
+  path.config: "/usr/share/logstash/pipeline/banda.live.user-activity.conf"
+
+- pipeline.id: number-of-patients-pipeline
+  path.config: "/usr/share/logstash/pipeline/banda.live.number-of-patients.conf"
+
+- pipeline.id: patients-seen-by-month-pipeline
+  path.config: "/usr/share/logstash/pipeline/banda.live.patients-seen-by-month.conf"
+
+- pipeline.id: total-patients-seen-pipeline
+  path.config: "/usr/share/logstash/pipeline/banda.live.total-patients-seen.conf"
